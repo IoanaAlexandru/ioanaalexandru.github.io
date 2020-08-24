@@ -1,31 +1,8 @@
-/* Ioana's custom stuff */
-.hero-body {
-  background-color: #ecbdbd;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.hero-body .subtitle.is-muted {
-  color: white;
-}
-
-.navbar.is-fresh .navbar-item {
-  color: #bd717a;
-}
-
-.navbar.is-fresh.no-shadow {
-  background-color: #ecbdbd;
-}
-
-.button.is-primary {
-  background-color: #bd717a;
-}
-
 /* Style for the summary pages */
 .refresh-summary{
   display: -webkit-box;
   -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical;  
   overflow: hidden;
   height: 4.5em;
   text-overflow: ellipsis;
@@ -63,19 +40,19 @@
   display: none;
 }
 .codeinline{
-  display:inline !important;
-  padding-top: 0.25em;
+  display:inline !important;        
+  padding-top: 0.25em; 
   padding-right: 0.250em;
-  padding-bottom: 0.25em;
-  padding-left: 0.25em;
-  border-radius: 4px;
+  padding-bottom: 0.25em;                            
+  padding-left: 0.25em;                               
+  border-radius: 4px;                                
   white-space: nowrap;
-}
+}  
 /* End */
 
 /* Style to remove srollbar width */
-div.scroll {
-  overflow-x: hidden;
+div.scroll { 
+  overflow-x: hidden; 
   scrollbar-width: none; /* Remove scrollbar width in Firefox */
   -ms-overflow-style: -ms-autohiding-scrollbar; /* Remove scrollbar width in MS Edge */
 }
@@ -86,7 +63,7 @@ div.scroll::-webkit-scrollbar { width: 0px; }
 
 /* .content{
   pre{
-    background-color: hsla(120, 100%, 50%, 0);
+    background-color: hsla(120, 100%, 50%, 0); 
   }
   .hide{
     display: none
@@ -97,9 +74,9 @@ div.scroll::-webkit-scrollbar { width: 0px; }
   h4{
     display: inline-block;
   }
-
+  
   .rounded-corners{
-    border-radius: 10px;
+    border-radius: 10px;         
   }
   .highlight{
     border-radius: 4px;
@@ -109,7 +86,7 @@ div.scroll::-webkit-scrollbar { width: 0px; }
 
 /* Style for tabs shortcode */
 .content .pre-colorless{
-  background-color: hsla(120, 100%, 50%, 0);
+  background-color: hsla(120, 100%, 50%, 0); 
 }
 /* .pre-colorless{
   background-color: hsla(120, 100%, 50%, 0);
@@ -126,12 +103,12 @@ div.scroll::-webkit-scrollbar { width: 0px; }
 }
 .content h4{
   display: inline-block;
-}
+} 
 /* End */
 
 /* Style used in images */
 .content .rounded-corners{
-  border-radius: 10px;
+  border-radius: 10px;         
 }
 /* end */
 
@@ -155,19 +132,19 @@ div.scroll::-webkit-scrollbar { width: 0px; }
 
 /* Style used in "site" shortcode */
 .refresh-site-left{
-  width: 100%;
-  border-top-right-radius: 0px; ;
+  width: 100%; 
+  border-top-right-radius: 0px; ; 
   border-bottom-right-radius: 0px;
 }
 .refresh-site-right{
-  width: 100%;
+  width: 100%; 
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
 /* end */
 
 /* .refresh-book{
-  min-width: 50px;
+  min-width: 50px; 
   max-width: 250px;
 } */
 
