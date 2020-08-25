@@ -1,4 +1,9 @@
 /* Ioana's custom stuff */
+.logo {
+  height: 50px; !important
+  width: 50px; !important
+}
+
 .hero-body {
   background-color: #ecbdbd;
   padding-top: 0px;
